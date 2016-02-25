@@ -1,14 +1,13 @@
 #include <iostream>
 #include <stdlib.h>
-#include "vector.h"
+#include "vector.hpp"
 
 using namespace std;
 
-
 int main()
 {
-
   vector v1;
+  TDATO dato_abuscar;
   //vector v2(10);
   cout << "1.- Se crea el vector. La dimension debe ser 0 y y no debe tener elementos:" << endl;
   cout << "Dimension: " << v1.get_dimension() << endl;
@@ -37,11 +36,19 @@ int main()
   cout << endl;
   cout << "Dimension: " << v1.get_dimension() << endl;
   cout << endl;
-  /*cout << "5.- Inserto el entero 5 al final del vector:" << endl;
-  v1.insertar_final(5);
+  cout << "5.- Inserto el entero 5 al final del vector:" << endl;
+  v1.insertar(v1.get_dimension(),5);
   cout << "Elementos: ";
   v1.mostrar_elementos();
   cout << endl;
-  cout << "Dimension: " << v1.get_dimension() << endl;*/
+  cout << "Dimension: " << v1.get_dimension() << endl;
+  cout << "6.- Buscar un dato."<< endl;
+  cout << "Introduzca dato:";
+  cin >> dato_abuscar;
+  v1.buscar_dato(dato_abuscar);
+  cout << endl;
+  cout << "7.- Operaciones con el vector:" << endl;
+  v1.operaciones();
+  cout << endl;
   return 0;
 }
