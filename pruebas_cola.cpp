@@ -1,8 +1,7 @@
 #include <iostream>
+#include "comun.hpp"
 #include "lista.cpp"
 #include "cola.hpp"
-
-using namespace std;
 
 int main()
 {

@@ -1,6 +1,3 @@
-
-using namespace std;
-
 class cola
 {
 private:

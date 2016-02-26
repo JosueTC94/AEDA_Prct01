@@ -1,7 +1,5 @@
 
 
-using namespace std;
-
 class pila
 {
 private:

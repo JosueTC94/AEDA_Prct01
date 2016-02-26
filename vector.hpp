@@ -1,9 +1,4 @@
 
-using namespace std;
-
-
-typedef int TDATO;
-typedef int dimension;
 
 class vector
 {
@@ -18,7 +13,7 @@ class vector
     }
     vector(int tamanio)
     {
-      datos = new int[tamanio];
+      datos = new TDATO[tamanio];
       dimension = tamanio;
     }
     ~vector()
@@ -67,7 +62,7 @@ class vector
       dimension = dim;
     }
 
-    void insertar(int pos, int dato)
+    void insertar(int pos, TDATO dato)
     {
       datos[pos] = dato;
     }

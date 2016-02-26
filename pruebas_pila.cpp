@@ -1,8 +1,7 @@
 #include <iostream>
+#include "comun.hpp"
 #include "lista.cpp"
 #include "pila.hpp"
-
-using namespace std;
 
 int main()
 {

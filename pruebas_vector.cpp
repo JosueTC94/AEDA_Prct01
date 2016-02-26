@@ -1,8 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
+#include "comun.hpp"
 #include "vector.hpp"
-
-using namespace std;
 
 int main()
 {
@@ -36,12 +35,6 @@ int main()
   cout << endl;
   cout << "Dimension: " << v1.get_dimension() << endl;
   cout << endl;
-  cout << "5.- Inserto el entero 5 al final del vector:" << endl;
-  v1.insertar(v1.get_dimension(),5);
-  cout << "Elementos: ";
-  v1.mostrar_elementos();
-  cout << endl;
-  cout << "Dimension: " << v1.get_dimension() << endl;
   cout << "6.- Buscar un dato."<< endl;
   cout << "Introduzca dato:";
   cin >> dato_abuscar;

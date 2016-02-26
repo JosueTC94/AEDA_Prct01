@@ -1,7 +1,5 @@
 #include "nodo.cpp"
 
-using namespace std;
-
 class lista
 {
 private:
